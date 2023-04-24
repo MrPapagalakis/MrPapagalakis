@@ -536,16 +536,16 @@ nav ul li {
 	width: 50%;
 }
 .text_column {
-	width: 100%;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
+  width: 100%;
+  text-align: justify;
+  font-weight: lighter;
+  line-height: 25px;
+  float: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #A3A3A3;
 }
+
 .banner {
 	margin-top: 0px;
 	padding-top: 0px;
