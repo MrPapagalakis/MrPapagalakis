@@ -457,12 +457,14 @@ nav ul li {
 	padding-bottom: 8px;
 }
 .text_column {
-	width: 100%;
-	text-align: left;
-	padding-top: 0px;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
+	 width: 100%;
+  text-align: justify;
+  font-weight: lighter;
+  line-height: 25px;
+  float: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #A3A3A3;
 }
 .thumbnail {
 	width: 100%;
