@@ -78,7 +78,7 @@ ul li:hover a {
 	padding-bottom: 150px;
 }*/
 .hero {
-	background-image: url("../images/electr%20papagalakis%201%20v1.png"); 
+	background-image: url(../images/parallax1.png);
 	background-size: cover;
 	background-position: center;
 	padding-top: 150px;
