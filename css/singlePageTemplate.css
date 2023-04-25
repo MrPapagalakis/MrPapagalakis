@@ -86,7 +86,7 @@ ul li:hover a {
 	border: 25px solid black;
 }
 .Video{
-	height: 68%;
+	height: 680px;
 	background-image: url(../images/parallax4.png);
 	background-attachment: fixed;
 	background-size: cover;
