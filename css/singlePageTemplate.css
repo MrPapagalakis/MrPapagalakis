@@ -140,7 +140,8 @@ ul li:hover a {
   text-align: center; /* Τοποθετεί το κείμενο στο κέντρο */
   font-weight: bold; /* Κάνει το κείμενο πιο έντονο */
   font-size: 28px; /* Ρυθμίζει το μέγεθος του κειμένου σαν τίτλος */
-  margin: 0; /* Αφαιρεί τα περιθώρια */
+  margin: auto; /* Αφαιρεί τα περιθώρια */
+  margin-bottom: 10px;
   padding: 0px; /* Προσθέτει περιθώρια στα αριστερά και στα δεξιά */
   color: #000000;
 }
@@ -178,7 +179,7 @@ ul li:hover a {
 	float: center;
 	padding-left: 2px;
 	padding-right: auto;
-	color: #A3A3A3;
+	color: #000000;
 }
 
 .sub
