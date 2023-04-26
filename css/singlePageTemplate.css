@@ -156,11 +156,12 @@ ul li:hover a {
   height: 30%;
 }
 .title4 {
-  width: 50%;
+  width: 42%;
   text-align: center; /* Τοποθετεί το κείμενο στο κέντρο */
   font-weight: bold; /* Κάνει το κείμενο πιο έντονο */
   font-size: 28px; /* Ρυθμίζει το μέγεθος του κειμένου σαν τίτλος */
   margin: auto;/* Αφαιρεί τα περιθώρια */
+  margin-bottom: 5px;
   padding: 10px; /* Προσθέτει περιθώρια στα αριστερά και στα δεξιά */
   color: #FFFFFF;
   height: 30%;
@@ -171,7 +172,7 @@ ul li:hover a {
 }
 
 .text_column {
-	width: 98%;
+	width: 95%;
 	margin: auto;
 	text-align: center;
 	font-weight: lighter;
@@ -180,6 +181,7 @@ ul li:hover a {
 	padding-left: 2px;
 	padding-right: auto;
 	color: #000000;
+	margin-bottom: 15px;
 }
 
 .sub
@@ -198,7 +200,7 @@ ul li:hover a {
 .button {
 	width: 240px;
 	margin: auto;
-	padding-top: 5px;
+	padding-top: 1px;
 	padding-right: 10px;
 	padding-bottom: 5px;
 	padding-left: 10px;
@@ -211,7 +213,7 @@ ul li:hover a {
 	border: 3px solid #FFFFFF;
 	color: #00EBFF;
 	transition: all 0.3s linear;
-	background-color: hsla(179,100%,50%,1.00);
+	background-color: #00FFFA;
       }
 .button:hover{
     background-color: #FFFFFF;
@@ -225,6 +227,24 @@ ul li:hover a {
 	display: inline-block;
 	background-color: #FFFFFF;
 	margin-top: 0px;
+}
+.social{
+	display: inline-block;
+	background-color: #FFFFFF;
+	width: 100%;
+	margin: auto;
+	margin-top: 20px;
+}
+.titles {
+  width: 42%;
+  text-align: center; /* Τοποθετεί το κείμενο στο κέντρο */
+  font-weight: bold; /* Κάνει το κείμενο πιο έντονο */
+  font-size: 28px; /* Ρυθμίζει το μέγεθος του κειμένου σαν τίτλος */
+  margin: auto;/* Αφαιρεί τα περιθώρια */
+  margin-bottom: 5px;
+  padding: 10px; /* Προσθέτει περιθώρια στα αριστερά και στα δεξιά */
+  color: #000000;
+  margin-top: 10px;
 }
 
 /* Stats Gallery */
@@ -618,4 +638,6 @@ nav ul li {
 	margin-top: 0px;
 	padding-top: 0px;
 }
+}
+.titles {
 }
