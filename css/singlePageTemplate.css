@@ -171,17 +171,17 @@ ul li:hover a {
   
 }
 
-.text_column {
-	width: 95%;
-	margin: auto;
-	text-align: center;
-	font-weight: lighter;
-	line-height: 25px;
-	float: center;
-	padding-left: 2px;
-	padding-right: auto;
-	color: #000000;
-	margin-bottom: 15px;
+.text_column1 {
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    font-weight: normal;
+    color: #9A9A9A;
+    margin-bottom: 15px;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
 }
 
 .sub
@@ -233,7 +233,7 @@ ul li:hover a {
 	background-color: #FFFFFF;
 	width: 100%;
 	margin: auto;
-	margin-top: 20px;
+	margin-top: 30px;
 }
 .titles {
   width: 42%;
@@ -245,6 +245,18 @@ ul li:hover a {
   padding: 10px; /* Προσθέτει περιθώρια στα αριστερά και στα δεξιά */
   color: #000000;
   margin-top: 10px;
+}
+.titles6 {
+  width: 42%;
+  text-align: center; /* Τοποθετεί το κείμενο στο κέντρο */
+  font-weight: bold; /* Κάνει το κείμενο πιο έντονο */
+  font-size: 28px; /* Ρυθμίζει το μέγεθος του κειμένου σαν τίτλος */
+  margin: auto;/* Αφαιρεί τα περιθώρια */
+  margin-bottom: 5px;
+  padding: 10px; /* Προσθέτει περιθώρια στα αριστερά και στα δεξιά */
+  color: #000000;
+  margin-top: 10px;
+  border: 3px solid #000000;
 }
 
 /* Stats Gallery */
@@ -258,10 +270,12 @@ ul li:hover a {
 	width: 100%;
 	background-color: #FFFFFF;
 	/* [disabled]min-width: 400px;
+	
 */
+	margin: auto;
 	padding-bottom: 35px;
 	padding-top: 0px;
-	margin-top: -5px;
+	margin-top: 0px;
 	margin-bottom: 0px;
 }
 .thumbnail {
@@ -286,12 +300,10 @@ ul li:hover a {
 }
 /* Parallax Section */
 .banner {
-	background-color: #2D9AB7;
-	background-image: url(../images/parallax.png);
-	height: 400px;
+	background-image: url(../images/main1.png); 
+	height: 500px;
 	background-attachment: fixed;
 	background-size: cover;
-	background-repeat: no-repeat;
 }
 .parallax {
 	color: #FFFFFF;
@@ -309,10 +321,6 @@ ul li:hover a {
 	float: right;
 	font-weight: lighter;
 	line-height: 23px;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
 }
 /* More info */
 footer {
@@ -392,6 +400,25 @@ footer .footer_column p {
 .button2:hover {
 	background-color: #FF0000;
 	color: #FFFFFF;
+	cursor: pointer;
+}
+.button3{
+	width: 80%; 
+	margin: auto;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 0px;
+	letter-spacing: 2px;
+	color: #B3B3B3;
+	transition: all 0.3s linear;
+}
+.button3:hover {
+	background-color: #00FFFA;
+	color: #000000;
 	cursor: pointer;
 }
 .copyright {
