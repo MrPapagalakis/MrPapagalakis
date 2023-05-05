@@ -198,18 +198,15 @@ ul li:hover a {
 }
 
 .button {
-	width: 240px;
+	width: 265px;
 	margin: auto;
 	padding-top: 1px;
-	padding-right: 10px;
 	padding-bottom: 5px;
-	padding-left: 10px;
 	text-align: center;
 	vertical-align: middle;
 	border-radius: 0px;
 	text-transform: uppercase;
 	font-weight: bold;
-	letter-spacing: 2px;
 	border: 3px solid #FFFFFF;
 	color: #00EBFF;
 	transition: all 0.3s linear;
@@ -229,12 +226,28 @@ ul li:hover a {
 	margin-top: 0px;
 }
 .social{
+	padding-top: 35px;
 	display: inline-block;
 	background-color: #FFFFFF;
 	width: 100%;
 	margin: auto;
-	margin-top: 30px;
+	margin-top: 3px;
 }
+.Code
+{
+	background-color: #FFFFFF;
+	width: 100%;
+	margin: auto;
+	margin-top: 3px;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 3px;
+	padding-bottom: 35px;
+}
+
 .titles {
   width: 42%;
   text-align: center; /* Τοποθετεί το κείμενο στο κέντρο */
@@ -245,6 +258,7 @@ ul li:hover a {
   padding: 10px; /* Προσθέτει περιθώρια στα αριστερά και στα δεξιά */
   color: #000000;
   margin-top: 10px;
+  
 }
 .titles6 {
   width: 42%;
@@ -257,6 +271,73 @@ ul li:hover a {
   color: #000000;
   margin-top: 10px;
   border: 3px solid #000000;
+}
+
+/* Styles for the access form */
+input[type="text"] {
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 16px;
+	transition: all 0.3s linear;
+	margin: auto;
+	text-align: center;
+}
+
+input[type="submit"] {
+	padding: 10px 20px;
+	background-color: #00FFFA;
+	color: #000000;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+	transition: all 0.3s linear;
+	margin: auto;
+	text-align: center;
+}
+input[type="submit"]:hover {
+	background-color: #FF0004;
+    color: #FFFFFF;
+    cursor: pointer;
+	transition: all 0.3s linear;
+}
+/* Styles for the access message */
+h1 {
+	font-size: 24px;
+	margin-bottom: 20px;
+	width: 100%;
+	transition: all 0.3s linear;
+	text-align: center;
+}
+
+/* Styles for the link div */
+#link {
+	display: none;
+}
+
+#link h1 {
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+#link p {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+#link .link-button {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #4CAF50;
+	color: #fff;
+	font-size: 18px;
+	text-decoration: none;
+	border-radius: 4px;
+}
+
+#link .link-button:hover {
+	background-color: #3e8e41;
 }
 
 /* Stats Gallery */
@@ -382,9 +463,9 @@ footer .footer_column p {
 	cursor: pointer;
 }
 .button2{
-	width: 80%; 
+	width: 50%; 
 	margin: auto;
-	padding-top: 20px;
+	padding-top: 25px;
 	padding-right: 10px;
 	padding-bottom: 20px;
 	padding-left: 10px;
@@ -393,7 +474,7 @@ footer .footer_column p {
 	border-radius: 0px;
 	text-transform: uppercase;
 	font-weight: bold;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 	color: #000000;
 	transition: all 0.3s linear;
 }
